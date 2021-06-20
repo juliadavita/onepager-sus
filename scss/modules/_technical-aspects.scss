@@ -1,0 +1,36 @@
+#technical-aspects{
+    background-color: $purple;
+    color: $white;
+
+    .grid{
+
+        .inner_grid{
+
+            .content_grid{
+
+                h1{
+                    margin: 0 auto;
+                    text-align: center;
+                    grid-column: 4/ span 6;
+                }
+
+                h3{
+                    font-weight: 700;
+                }
+
+                .cover-image{
+                    margin-top: 0;
+                }
+
+                .text-50{
+                    grid-column: span 4;
+
+                    &:nth-child(odd) {
+                        grid-column: 3/ span 4;
+                      }
+                }
+
+            }
+        }
+    }
+}

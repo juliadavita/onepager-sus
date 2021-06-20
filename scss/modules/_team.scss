@@ -1,0 +1,40 @@
+#team{
+    background-color: $lilac;
+    z-index: 999;
+    margin-top: -7px;
+
+        .grid{
+
+
+            .inner_grid{
+
+                .content_grid{
+                    grid-template-columns: repeat(10, 1fr);
+
+                    .team-member{
+                        position: relative;
+                        grid-column: span 2;
+                        background-color: $white;
+                        height:400px;
+                        z-index: 10;
+                        border-radius: 2px;
+
+                        .team-name{
+                            position: absolute;
+                            bottom:0;
+                            width: 100%;
+                            background: rgba(54, 74, 157, .5);
+                            z-index: 10;
+
+                            h3{
+                                font-size: 18px;
+                                color: $white;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+}

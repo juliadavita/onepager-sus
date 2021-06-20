@@ -1,0 +1,51 @@
+#hero{
+    height:1000px;   
+    background-image: url(../../img/hero_placeholder.jpg);
+    background-color: $purple;
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+
+        .grid{
+            z-index: 5;
+            padding: 20px;
+
+            .inner_grid{
+
+                .content_grid{
+                    color: $white;
+
+                    .logo{
+                        grid-column: span 2;
+                        background-image: url(../../img/logo.svg);
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        height:200px;
+                    }
+
+                    .navbar{
+                        grid-column: 8/ span 5;
+                        height:75px;
+
+                        .nav-link{
+                           text-decoration: none;
+                           color: white;
+                           font-weight: 500;
+                           transition: 500ms;
+                           font-size: 20px;
+                           padding: 0 20px;
+
+                           &:hover{
+                               color: $purple;
+                           }
+                           
+                        }
+                    }
+
+                }
+            }
+        }
+        
+}
+
