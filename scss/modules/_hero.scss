@@ -1,6 +1,6 @@
 #hero{
     height:1000px;   
-    background-image: url(../../img/hero_placeholder.jpg);
+    background-image: url(././img/hero_placeholder.jpg);
     background-color: $purple;
     background-position: center center;
     background-repeat: none;
@@ -17,7 +17,7 @@
 
                     .logo{
                         grid-column: span 2;
-                        background-image: url(../../img/logo.svg);
+                        background-image: url(././img/logo.svg);
                         background-position: center center;
                         background-repeat: no-repeat;
                         background-size: contain;
