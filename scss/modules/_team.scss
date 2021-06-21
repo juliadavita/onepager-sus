@@ -14,10 +14,34 @@
                     .team-member{
                         position: relative;
                         grid-column: span 2;
-                        background-color: $white;
+                        // background-color: $white;
                         height:400px;
                         z-index: 10;
                         border-radius: 2px;
+                        background-position: center center;
+                        background-size: cover;
+
+                        &.carli{
+                            background-image: url(../../img/carli.jpeg);
+                            background-position: center left;
+                        }
+
+                        &.hayen{
+                            background-image: url(../../img/hayen.jpeg);
+                        }
+
+                        &.julia{
+                            background-image: url(../../img/julia.png);
+                        }
+
+                        &.thiemen{
+                            background-image: url(../../img/thiemen.png);
+                        }
+
+                        &.yentl{
+                            background-image: url(../../img/yentl.png);
+                            background-position: center left;
+                        }
 
                         .team-name{
                             position: absolute;
