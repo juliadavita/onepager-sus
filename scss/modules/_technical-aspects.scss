@@ -21,15 +21,6 @@
                 .cover-image{
                     margin-top: 0;
                 }
-
-                .text-50{
-                    grid-column: span 4;
-
-                    &:nth-child(odd) {
-                        grid-column: 3/ span 4;
-                      }
-                }
-
             }
         }
     }
