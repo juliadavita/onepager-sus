@@ -11,10 +11,17 @@
                         margin: 0 auto;
                         text-align: center;
                         grid-column: 6/ span 2;
+                        // color: $purple;
                     }
 
-                    .centered-image{
+                    .cover-image{
                         grid-column: span 12;
+                        background-image: url(./../../img/pippin-visualisatie.jpg);
+                        background-size: contain;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        
+                        
                     }
 
                     .centered-text{
